@@ -1,0 +1,65 @@
+<ion-content [fullscreen]="true" class="page-background">
+
+  <div class="phone-frame">
+    <div class="phone-notch"></div>
+
+    <div class="phone-screen">
+      <h1 class="page-title">Logros / Insignias</h1>
+
+      <div class="badge-list">
+        <div class="badge-item">
+          <div class="badge-icon">⬢</div>
+          <div class="badge-text">
+            <p class="badge-title">Primer hábito completado</p>
+            <p class="badge-subtitle">Tu primer logro en Mi Hábito</p>
+          </div>
+        </div>
+
+        <div class="badge-item">
+          <div class="badge-icon">★</div>
+          <div class="badge-text">
+            <p class="badge-title">Semana constante</p>
+            <p class="badge-subtitle">7 días seguidos cumpliendo</p>
+          </div>
+        </div>
+
+        <div class="badge-item">
+          <div class="badge-icon">🎯</div>
+          <div class="badge-text">
+            <p class="badge-title">Meta alcanzada</p>
+            <p class="badge-subtitle">Cumpliste tu objetivo principal</p>
+          </div>
+        </div>
+
+        <div class="badge-item">
+          <div class="badge-icon">🛡️</div>
+          <div class="badge-text">
+            <p class="badge-title">Hábito protegido</p>
+            <p class="badge-subtitle">Te mantuviste firme en tu rutina</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menú inferior -->
+      <div class="bottom-nav">
+        <button class="nav-item" (click)="irADashboard()">
+          <span class="nav-icon">☰</span>
+          <span class="nav-text">Dashboard</span>
+        </button>
+        <button class="nav-item" (click)="irAEstadisticas()">
+          <span class="nav-icon">📊</span>
+          <span class="nav-text">Estadísticas</span>
+        </button>
+        <button class="nav-item active" (click)="irALogros()">
+          <span class="nav-icon">🏆</span>
+          <span class="nav-text">Logros</span>
+        </button>
+        <button class="nav-item" (click)="irAConfiguracion()">
+          <span class="nav-icon">⚙️</span>
+          <span class="nav-text">Config.</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+</ion-content>

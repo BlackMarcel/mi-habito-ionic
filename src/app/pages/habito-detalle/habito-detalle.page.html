@@ -1,0 +1,47 @@
+<ion-content [fullscreen]="true" class="page-background">
+
+  <div class="phone-frame">
+    <div class="phone-notch"></div>
+
+    <div class="phone-screen">
+      <h1 class="page-title">Detalle de Hábito</h1>
+
+      <div class="card habit-detail-card">
+        <h2 class="habit-title">Leer 30 minutos</h2>
+
+        <p class="label">Meta diaria</p>
+        <div class="progress-bar">
+          <div class="progress-fill"></div>
+        </div>
+
+        <p class="label">Progreso</p>
+        <p class="progress-text">15 / 30 minutos</p>
+      </div>
+
+      <button class="primary-button">
+        Marcar como completado
+      </button>
+
+      <!-- Menú inferior -->
+      <div class="bottom-nav">
+        <button class="nav-item active" (click)="irADashboard()">
+          <span class="nav-icon">☰</span>
+          <span class="nav-text">Dashboard</span>
+        </button>
+        <button class="nav-item" (click)="irAEstadisticas()">
+          <span class="nav-icon">📊</span>
+          <span class="nav-text">Estadísticas</span>
+        </button>
+        <button class="nav-item" (click)="irALogros()">
+          <span class="nav-icon">🏆</span>
+          <span class="nav-text">Logros</span>
+        </button>
+        <button class="nav-item" (click)="irAConfiguracion()">
+          <span class="nav-icon">⚙️</span>
+          <span class="nav-text">Config.</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+</ion-content>

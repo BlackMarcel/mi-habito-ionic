@@ -1,0 +1,38 @@
+<ion-content [fullscreen]="true" class="inicio-background">
+
+  <div class="phone-frame">
+    <div class="phone-notch"></div>
+
+    <div class="phone-screen">
+      <h1 class="app-title">Mi Hábito</h1>
+
+      <div class="form-container">
+
+        <div class="input-group">
+          <label class="input-label">Correo electrónico</label>
+          <input
+            type="email"
+            class="text-input"
+            placeholder="Correo electrónico" />
+        </div>
+
+        <div class="input-group">
+          <label class="input-label">Contraseña</label>
+          <input
+            type="password"
+            class="text-input"
+            placeholder="Contraseña" />
+        </div>
+
+        <button class="primary-button" (click)="irAlDashboard()">
+          Iniciar Sesión
+        </button>
+
+        <button class="link-button">
+          Crear cuenta
+        </button>
+      </div>
+    </div>
+  </div>
+
+</ion-content>

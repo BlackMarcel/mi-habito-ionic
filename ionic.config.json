@@ -1,0 +1,7 @@
+{
+  "name": "mi-habito",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
